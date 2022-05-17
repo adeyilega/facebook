@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	background-color:#E2E5E6;
+}
+#main{
+	padding-right: 100px;
+	padding-left: 50px;
+}
+
+#logo{
+ width:250px;
+	height:90px;
+
+}
+
+#logo2{
+ width:250px;
+	height:90px;
+
+}
+
+#mainbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 150px;
+	padding-bottom: 300px;
+}
+#rightseg{
+	display:flex;
+	flex-direction: column;
+}
+
+#rightseg2{
+	display:none
+}
+#leftseg{
+/*	margin-left: 100px;*/
+}
+#text{
+/*	padding-left:30px;*/
+	font-size: 24px;
+}
+#text1{
+	font-size: 14px;
+
+}
+#formitems{
+	background-color: white;
+	align-items: center;
+	padding-top: 30px;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+/*	margin-top: 150px;*/
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+#email{
+	width:350px;
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+#password{
+	width:350px;
+	height: 40px;
+	font-size: 16px;
+}
+#login{
+	color:white;
+	font-weight: 700px;
+	font-size: 18px;
+	background-color:#3b5998;
+	width:350px;
+	height:50px;
+	margin-top: 30px;
+	border-radius: 5px;
+    margin-bottom: 20px;
+	text-decoration: none;
+}
+#login:hover{
+    cursor: pointer;
+    background-color:#071F85;
+}
+#check{
+	padding-left: 100px;
+	font-size: 14px;
+	text-decoration:none;
+	color: #1813B3;
+	
+}
+#check:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#create{
+	color:white;
+	font-weight: 700px;
+	font-size: 16px;
+	background-color:#1EB024;
+	width:200px;
+	height:50px;
+	margin-top: 60px;
+	border-radius: 5px;
+    margin-bottom: 20px;
+	margin-left: 80px;
+}
+#create:hover{
+	cursor: pointer;
+	background-color:#0D8B0F;
+}
+#page{
+	display: flex;
+	margin-left:80px;
+	font-weight: 600;
+	margin-top: 20px;
+	
+}
+#page:hover{
+    cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+	
+	#mainbox{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+	
+	
+	#rightseg{
+	display: none;
+			
+	}
+	#rightseg2{
+	display:flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+		
+			
+	}
+	
+	#logo{
+		display: flex;
+		margin-right: 60px;
+	}
+	
+	
+	#check{
+		padding: 0px;
+	}
+	
+	#create{
+		margin: 0px;
+		margin-top: 40px;
+	}
+	}
